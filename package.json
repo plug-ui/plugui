@@ -1,10 +1,9 @@
 {
-  "name": "plugui",
-  "version": "0.0.2",
-  "description": "Plug UI is a lightweight flex based responsive layout utility optimized for mobile phones, tablets and desktops",
+  "name": "@plug-ui/plugui",
+  "version": "0.1.1",
+  "description": "PLUG UI is a collection of CSS only Pluggable & Lightweight UI Elements",
   "scripts": {
     "dev": "cd docs && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "minify": "node-sass plugui.scss plugui.min.css --output-style compressed",
     "build": "node-sass plugui.scss plugui.css && npm run minify",
     "build-docs": "cd docs && npm run build && npm run generate",
@@ -13,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plugui/plugui.git"
+    "url": "git+https://github.com/plug-ui/plugui.git"
   },
   "keywords": [
     "css",
@@ -21,10 +20,10 @@
     "responsive",
     "flex"
   ],
-  "author": "Pulkit",
+  "author": "Pulkit <pulkit.cloud@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/plugui/plugui/issues"
+    "url": "https://github.com/plugui/plug-ui/issues"
   },
   "homepage": "https://plugui.com",
   "devDependencies": {
