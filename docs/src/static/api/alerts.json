@@ -1,0 +1,27 @@
+[
+  {
+    "class": ".pl-info-msg",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-success-msg",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-warning-msg",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-error-msg ",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-transparent-msg",
+    "description": "",
+    "properties": ""
+  }
+]

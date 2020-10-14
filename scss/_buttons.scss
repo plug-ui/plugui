@@ -1,0 +1,149 @@
+.pl-btn {
+  color: #607c8a;
+  appearance: none;
+  border: 2px solid #607c8a;
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 20px;
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+}
+
+.pl-btn--1 {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 30px 30px #607c8a inset;
+    color: white;
+  }
+}
+
+.pl-btn--2 {
+  border-color: #607c8a;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #607c8a inset, 0 0 0 0 #607c8a;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 8px 0 #607c8a inset, 0 0 8px 2px #607c8a;
+    color: #607c8a;
+  }
+}
+
+.pl-btn--3 {
+  border-radius: 10px;
+}
+
+.pl-btn--4 {
+  border-radius: 20px;
+}
+
+.pl-btn--5 {
+  border-color: #607c8a;
+}
+
+.pl-btn--6 {
+  transition: 0.2s all;
+
+  &:active,
+  &:focus {
+    box-shadow: 0 4px 10px -3px #000;
+    transform: scale(1.02);
+  }
+}
+
+.pl-btn--7 {
+  background-color: #607c8a;
+  color: #fff;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transition: 0.2s all;
+
+  &:active,
+  &:focus {
+    transform: scale(0.98);
+    box-shadow: none;
+  }
+}
+
+.pl-btn--8 {
+  background-color: #607c8a;
+  color: #fff;
+  box-shadow: 0 4px 10px -3px #000;
+  transition: 0.2s all;
+
+  &:active,
+  &:focus {
+    transform: scale(0.98);
+    box-shadow: none;
+  }
+}
+
+.pl-btn--9 {
+  border-radius: 20px;
+  color: #fff;
+  background-color: #607c8a;
+  box-shadow: 0 4px 10px -3px #000;
+  transition: 0.2s all ease-in-out;
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+}
+
+.pl-btn--10 {
+  border-radius: 20px;
+  color: #fff;
+  background-color: #607c8a;
+  box-shadow: 0 4px #a9b8c0;
+  transition: 0.2s all ease-in-out;
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: none;
+    box-shadow: 0 2px #a9b8c0;
+  }
+}
+
+.pl-btn--11 {
+  color: #fff;
+  background-color: #607c8a;
+  box-shadow: 0px 5px 0px 0px #a9b8c0;
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+  }
+}
+
+// Rounded Btn
+.pl-btn--rounded-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 50%;
+  color: white;
+  appearance: none;
+  border: 2px solid #607c8a;
+  background-color: #607c8a;
+  cursor: pointer;
+  margin: 20px;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+
+  i {
+    font-size: 26px;
+    margin: 7px;
+  }
+}

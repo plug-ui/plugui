@@ -1,0 +1,33 @@
+{
+  "name": "plug-ui",
+  "version": "0.0.2",
+  "description": "Plug UI is a lightweight flex based responsive layout utility optimized for mobile phones, tablets and desktops",
+  "scripts": {
+    "dev": "cd docs && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "node-sass plugui.scss plugui.min.css --output-style compressed",
+    "build": "node-sass plugui.scss plugui.css && npm run minify",
+    "build-docs": "cd docs && npm run build && npm run generate",
+    "release": "release-it --no-git.requireCleanWorkingDir",
+    "postinstall": "cd docs && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plugui/plugui.git"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "responsive",
+    "flex"
+  ],
+  "author": "Pulkit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plugui/plugui/issues"
+  },
+  "homepage": "https://plugui.com",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

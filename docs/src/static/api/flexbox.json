@@ -1,0 +1,37 @@
+[
+  {
+    "class": ".pl-flex",
+    "description": "Flex property",
+    "properties": "display: flex;"
+  },
+  {
+    "class": ".pl-jc--start",
+    "description": "Items are positioned at the beginning of the container",
+    "properties": "justify-content: flex-start;"
+  },
+  {
+    "class": ".pl-jc--end",
+    "description": "Items are positioned at the end of the container",
+    "properties": "justify-content: flex-end;"
+  },
+  {
+    "class": ".pl-jc--center",
+    "description": "Items are positioned at the center of the container",
+    "properties": "justify-content: center;"
+  },
+  {
+    "class": ".pl-jc--between",
+    "description": "Items are positioned with space between the lines",
+    "properties": "justify-content: space-between;"
+  },
+  {
+    "class": ".pl-jc--around",
+    "description": "Items are positioned with space before, between, and after the lines",
+    "properties": "justify-content: space-around;"
+  },
+  {
+    "class": ".pl-jc--evenly",
+    "description": "Items are positioned with equal space, all around",
+    "properties": "justify-content: space-evenly;"
+  }
+]

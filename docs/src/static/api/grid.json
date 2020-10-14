@@ -1,0 +1,37 @@
+[
+  {
+    "class": ".pl-grid",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-dir--row",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-dir--rev",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-dir--col",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-col",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-col--1",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-col--2",
+    "description": "",
+    "properties": ""
+  }
+]

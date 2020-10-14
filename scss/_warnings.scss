@@ -1,0 +1,47 @@
+.pl-info-msg,
+.pl-success-msg,
+.pl-warning-msg,
+.pl-error-msg {
+  margin: 0.5rem 0;
+  padding: 1rem 1rem;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+
+  i {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  p {
+    margin-left: 12px;
+  }
+}
+
+.pl-info-msg {
+  color: #1c587a;
+  background-color: #e7f1fa;
+  border-top: 5px solid #2b9af3;
+}
+
+.pl-success-msg {
+  color: #366331;
+  background-color: #f3faf2;
+  border-top: 5px solid #3e8635;
+}
+
+.pl-warning-msg {
+  color: #89691c;
+  background-color: #fdf7e7;
+  border-top: 5px solid #f0ab00;
+}
+
+.pl-error-msg {
+  color: #7d1007;
+  background-color: #faeae8;
+  border-top: 5px solid #c9190b;
+}
+
+.pl-transparent-msg {
+  background: #ffffff;
+}
