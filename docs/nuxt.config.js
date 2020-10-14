@@ -9,10 +9,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'PLUG UI a collection of CSS only Pluggable & Lightweight UI Elements' },
+      { property: "og:title", content: "PLUG UI" },
+      { property: "og:image", content: "https://plugui.com/icon.png" },
       { property: 'og:site_name', content: 'PLUG UI | Pluggable CSS only Library' },
-      { property: "og:image", content: "https://plugui.com/icon.png" }
-
+      { property: "og:description", content: 'PLUG UI a collection of CSS only Pluggable & Lightweight UI Elements' },
+      { hid: 'description', name: 'description', content: 'PLUG UI a collection of CSS only Pluggable & Lightweight UI Elements' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

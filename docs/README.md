@@ -1,5 +1,5 @@
 # Plug UI Docs
-Premium collection of well known CSS utilities
+PLUG UI a collection of CSS only Pluggable & Lightweight UI Elements
 
 ## Build Setup
 
