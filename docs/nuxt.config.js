@@ -12,8 +12,8 @@ export default {
       { property: "og:title", content: "PLUG UI" },
       { property: "og:image", content: "https://plugui.com/icon.png" },
       { property: 'og:site_name', content: 'PLUG UI | Pluggable CSS only Library' },
-      { property: "og:description", content: 'PLUG UI a collection of CSS only Pluggable & Lightweight UI Elements' },
-      { hid: 'description', name: 'description', content: 'PLUG UI a collection of CSS only Pluggable & Lightweight UI Elements' }
+      { property: "og:description", content: 'A collection of CSS only Pluggable & Lightweight UI Elements' },
+      { hid: 'description', name: 'description', content: 'PLUG UI is a collection of CSS only Pluggable & Lightweight UI Elements' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

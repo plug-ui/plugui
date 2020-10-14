@@ -1,5 +1,5 @@
 # Plug UI Docs
-PLUG UI a collection of CSS only Pluggable & Lightweight UI Elements
+PLUG UI is a collection of CSS only Pluggable & Lightweight UI Elements
 
 ## Build Setup
 
