@@ -16,7 +16,7 @@
 
 <script>
 import "../../../plugui.scss";
-import "@lightvue/icons/dist/light-icon.css";
+import "light-icons/dist/light-icon.css";
 
 import AppHeader from "@/components/layout/AppHeader.vue";
 import SideMenu from "@/components/layout/SideMenu.vue";

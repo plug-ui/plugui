@@ -1,27 +1,31 @@
 <template>
-  <div class="api-table">
-    <div class="api-table__header">
-      <div class="api-table__cell">CSS class</div>
-      <div class="api-table__cell">description</div>
-      <div class="api-table__cell">properties</div>
-    </div>
-    <div
-      class="api-table__row"
-      v-for="property in properties"
-      :key="property.class"
-    >
-      <div class="api-table__cell --class-name">
-        {{ property.class }}
-        <div
-          class="api-table__copy-btn"
-          title="copy css class"
-          @click="copy(property.class)"
-        >
-          <i class="light-icon-copy"></i>
+  <div class="api-table__wrap">
+    <div class="api-table">
+      <div class="api-table__header">
+        <div class="api-table__cell">CSS class</div>
+        <div class="api-table__cell">description</div>
+        <div class="api-table__cell">properties</div>
+      </div>
+      <div
+        class="api-table__row"
+        v-for="property in properties"
+        :key="property.class"
+      >
+        <div class="api-table__cell --class-name">
+          {{ property.class }}
+          <div
+            class="api-table__copy-btn"
+            title="copy css class"
+            @click="copy(property.class)"
+          >
+            <i class="light-icon-copy"></i>
+          </div>
+        </div>
+        <div class="api-table__cell">{{ property.description }}</div>
+        <div class="api-table__cell --properties">
+          {{ property.properties }}
         </div>
       </div>
-      <div class="api-table__cell">{{ property.description }}</div>
-      <div class="api-table__cell --properties">{{ property.properties }}</div>
     </div>
   </div>
 </template>
@@ -67,6 +71,9 @@ export default {
 </script>
 
 <style lang="scss">
+.api-table__wrap {
+  overflow-y: auto;
+}
 .api-table {
   display: table;
   width: 100%;
