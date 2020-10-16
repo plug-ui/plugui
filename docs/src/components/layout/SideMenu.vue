@@ -34,7 +34,7 @@
         <div class="nav-label">Inline Alerts</div>
       </nuxt-link>
       <nuxt-link to="/responsive-area" class="nav-item">
-        <div class="nav-label">Respinsive Area</div>
+        <div class="nav-label">Responsive Area</div>
       </nuxt-link>
     </div>
   </div>
