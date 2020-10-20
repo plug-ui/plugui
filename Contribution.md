@@ -3,11 +3,13 @@ the actual SCSS Files are in the main folder and other DOCS files are in docs fo
 
 Getting Started:
 
-# clone repository
+clone repository
 Git clone: https://github.com/plug-ui/plugui.git
-# Install dependencies
+
+Install dependencies
 $ npm install
-# Preview docs with hot reload at localhost:3000
+
+Preview docs with hot reload at localhost:3000
 $ npm run dev
 
 Preparing your Fork
