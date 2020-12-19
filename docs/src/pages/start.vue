@@ -73,7 +73,7 @@
 
             PLUG UI is a collection of CSS only Pluggable and Lightweight UI
             Elements, it is currently in version 1.0 with vue/ Nuxt js. The
-            actual SCSS diles are in the main folder of its Github repository
+            actual SCSS files are in the main folder of its Github repository
             and other Docs files are in dosc folder in the Github repository.
             <a class="inline-links" href="https://github.com/plug-ui/plugui"
               >Redirect to Github</a
