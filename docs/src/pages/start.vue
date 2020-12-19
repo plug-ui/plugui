@@ -11,7 +11,7 @@
     <br />
     <div class="content-section implementation">
       <docs-card title="Installation Guide" :responsive="false">
-        <div class="pl-info-msg ">
+        <div class="docs-container">
           <!-- <i class="light-icon-book"></i> -->
           <div class="pl-docs">
             <h4>
@@ -28,6 +28,12 @@
               <pre><code data-lang="html"><span class="">&lt;!DOCTYPE html&gt;</span></code></pre>
             </div>
             <div class="pl-methods">
+              <h3>Instal the plug ui npm package</h3>
+              <a href="https://www.npmjs.com/package/@plug-ui/plugui"
+                >https://www.npmjs.com/package/@plug-ui/plugui</a
+              >
+            </div>
+            <div class="pl-methods">
               <h3>Use the jsDelivr CDN</h3>
               <a href="https://www.jsdelivr.com/package/npm/plugui"
                 >https://www.jsdelivr.com/package/npm/plugui</a
@@ -38,30 +44,6 @@
               <a href="https://github.com/plug-ui/plugui"
                 >https://github.com/plug-ui/plugui</a
               >
-            </div>
-            <div class="pl-methods">
-              <h3>Starter Template</h3>
-              <pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="">&lt;html&gt;</span>
-  <span class="">&lt;head&gt;</span>
-    <span class="">&lt;meta</span> <span class="na">charset=</span><span class="">"utf-8"</span><span class="">&gt;</span>
-    <span class="">&lt;meta</span> <span class="na">name=</span><span class="">"viewport"</span> <span class="na">content=</span><span class="">"width=device-width, initial-scale=1"</span><span class="">&gt;</span>
-    <span class="">&lt;title&gt;</span>Hello Bulma!<span class="">&lt;/title&gt;</span>
-    <span class="">&lt;link</span> <span class="na">rel=</span><span class="">"stylesheet"</span> <span class="na">href=</span><span class="">"https://cdn.jsdelivr.net/npm/plugui"</span><span class="">&gt;</span>
-  <span class="">&lt;/head&gt;</span>
-  <span class="">&lt;body&gt;</span>
-  <span class="">&lt;section</span> <span class="na">class=</span><span class="">"section"</span><span class="">&gt;</span>
-    <span class="">&lt;div</span> <span class="na">class=</span><span class="">"container"</span><span class="">&gt;</span>
-      <span class="">&lt;h1</span> <span class="na">class=</span><span class="">"title"</span><span class="">&gt;</span>
-        Hello World
-      <span class="">&lt;/h1&gt;</span>
-      <span class="">&lt;p</span> <span class="na">class=</span><span class="">"subtitle"</span><span class="">&gt;</span>
-        My first website with <span class="">&lt;strong&gt;</span>PLUGUI<span class="">&lt;/strong&gt;</span>!
-      <span class="">&lt;/p&gt;</span>
-    <span class="">&lt;/div&gt;</span>
-  <span class="">&lt;/section&gt;</span>
-  <span class="">&lt;/body&gt;</span>
-<span class="">&lt;/html&gt;</span></code></pre>
             </div>
           </div>
         </div>
@@ -81,7 +63,7 @@
         sourceLink="https://github.com/plug-ui/plugui"
         :responsive="false"
       >
-        <div class="pl-success-msg">
+        <div class="docs-container">
           <!-- <i class="light-icon-brand-github"></i> -->
           <div class="pl-docs">
             <h3>
@@ -90,7 +72,12 @@
             </h3>
 
             PLUG UI is a collection of CSS only Pluggable and Lightweight UI
-            Elements
+            Elements, it is currently in version 1.0 with vue/ Nuxt js. The
+            actual SCSS diles are in the main folder of its Github repository
+            and other Docs files are in dosc folder in the Github repository.
+            <a class="inline-links" href="https://github.com/plug-ui/plugui"
+              >Redirect to Github</a
+            >
             <h6># Install dependencies</h6>
             <pre><code data-lang="html"><span class="">$ npm install</span></code></pre>
             <h6># Preview docs with hot reload at localhost:3000</h6>
@@ -112,6 +99,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.docs-container {
+  padding: 20px;
+}
 .info-link {
   color: #3e8635;
   font-weight: 600;
@@ -145,6 +135,13 @@ export default {
     font-style: none;
     color: blue;
     font-weight: bold;
+  }
+  .inline-links {
+    display: flex;
+    font-size: 16px;
+    font-weight: normal;
+    color: #7c7cfa;
+    margin-top: 5px;
   }
   h6 {
     font-size: 16px;
