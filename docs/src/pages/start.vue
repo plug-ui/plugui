@@ -24,24 +24,34 @@
               <li>Use the help of <b>CDN</b></li>
             </ol>
             <div class="pl-methods">
-              <h3>Use the HTML5 doctype</h3>
-              <pre><code data-lang="html"><span class="">&lt;!DOCTYPE html&gt;</span></code></pre>
-            </div>
-            <div class="pl-methods">
-              <h3>Instal the plug ui npm package</h3>
-              <a href="https://www.npmjs.com/package/@plug-ui/plugui"
-                >https://www.npmjs.com/package/@plug-ui/plugui</a
+              <h3>Install the plug ui npm package</h3>
+              <code-highlight lang="javascript"
+                >npm i @plug-ui/plugui</code-highlight
+              >
+              <code-highlight lang="javascript"
+                >//import in css files <br />
+                @import "~@plug-ui/plugui/plugui.min.css";
+              </code-highlight>
+              <code-highlight lang="javascript"
+                >//import in JS files
+                @import"plug-ui/plugui/plugui.min.css";</code-highlight
+              >
+              <h3>How to use</h3>
+              <code-highlight lang="javascript"
+                >import "plug-ui/plugui/plugui.min.css";</code-highlight
               >
             </div>
             <div class="pl-methods">
               <h3>Use the jsDelivr CDN</h3>
-              <a href="https://www.jsdelivr.com/package/npm/plugui"
-                >https://www.jsdelivr.com/package/npm/plugui</a
+              <a
+                target="_blank"
+                href="https://www.jsdelivr.com/package/npm/@plug-ui/plugui"
+                >https://www.jsdelivr.com/package/npm/@plug-ui/plugui</a
               >
             </div>
             <div class="pl-methods">
               <h3>Download from the repository</h3>
-              <a href="https://github.com/plug-ui/plugui"
+              <a target="_blank" href="https://github.com/plug-ui/plugui"
                 >https://github.com/plug-ui/plugui</a
               >
             </div>
@@ -75,10 +85,11 @@
             Elements, it is currently in version 1.0 with vue/ Nuxt js. The
             actual SCSS files are in the main folder of its Github repository
             and other Docs files are in dosc folder in the Github repository.
-            <a class="inline-links" href="https://github.com/plug-ui/plugui"
+            <a target="_blank" href="https://github.com/plug-ui/plugui"
               >Redirect to Github</a
             >
             <h6># Install dependencies</h6>
+            <pre><code data-lang="html"><span class="">$ npm install</span></code></pre>
             <pre><code data-lang="html"><span class="">$ npm install</span></code></pre>
             <h6># Preview docs with hot reload at localhost:3000</h6>
             <pre><code data-lang="html"><span class="">$ npm run dev</span></code></pre>
@@ -90,14 +101,15 @@
 </template>
 
 <script>
+import CodeHighlight from "@/collections/docs-card/CodeHighlight.vue";
 import DocsCard from "@/collections/docs-card/DocsCard.vue";
 export default {
   components: {
-    DocsCard
+    DocsCard,
+    CodeHighlight
   }
 };
 </script>
-
 <style lang="scss" scoped>
 .docs-container {
   padding: 20px;
@@ -129,12 +141,12 @@ export default {
     border-radius: 6px;
     color: #586e75;
     padding: 10px;
+    margin: 15px 0;
   }
   a {
-    font-size: 18px;
+    font-size: 16px;
     font-style: none;
-    color: blue;
-    font-weight: bold;
+    color: #39b4ad;
   }
   .inline-links {
     display: flex;
