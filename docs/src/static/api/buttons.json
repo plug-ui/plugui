@@ -40,12 +40,37 @@
     "properties": ""
   },
   {
-    "class": ".pl-btn--8",
+    "class": ".pl-btn--9",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-btn--10",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-btn--11",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-btn--12",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-btn--13",
     "description": "",
     "properties": ""
   },
   {
     "class": ".pl-btn--rounded-1",
+    "description": "",
+    "properties": ""
+  },
+  {
+    "class": ".pl-btn--rounded-2",
     "description": "",
     "properties": ""
   }
