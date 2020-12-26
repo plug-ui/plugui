@@ -6,7 +6,7 @@
     "dev": "cd docs && npm run dev",
     "minify": "node-sass plugui.scss plugui.min.css --output-style compressed",
     "build": "node-sass plugui.scss plugui.css && npm run minify",
-    "build-docs": "cd docs && npm run build && npm run generate",
+    "build-docs": "cd docs && npm install && npm run build && npm run generate",
     "release": "release-it --no-git.requireCleanWorkingDir",
     "postinstall": "cd docs && npm install"
   },
