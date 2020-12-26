@@ -33,6 +33,9 @@
       <nuxt-link to="/alerts" class="nav-item">
         <div class="nav-label">Inline Alerts</div>
       </nuxt-link>
+      <nuxt-link to="/loaders" class="nav-item">
+        <div class="nav-label">Loaders</div>
+      </nuxt-link>
       <nuxt-link to="/responsive-area" class="nav-item">
         <div class="nav-label">Responsive Area</div>
       </nuxt-link>
