@@ -14,6 +14,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* Gutters or alleys are spacing between content tracks. */
+
 .pl-nogutter {
   margin-right: 0;
   margin-left: 0;
@@ -22,12 +24,14 @@
 .pl-nogutter > .pl-col,
 .pl-nogutter > [class*="p-col-"] {
   padding: 0; }
-
+/* Aligning grid items in a row */
 .pl-dir--row {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row; }
+
+/* Reversing grid row items */
 
 .pl-dir--rev {
   -webkit-box-orient: horizontal;
@@ -35,11 +39,15 @@
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse; }
 
+/* Aligning grid items in a column */
+
 .pl-dir--col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column; }
+
+/*Reversing direction of grid items in column  */
 
 .pl-dir--col-rev {
   -webkit-box-orient: vertical;
@@ -47,30 +55,37 @@
   -ms-flex-direction: column-reverse;
   flex-direction: column-reverse; }
 
+/* Items are positioned at the beginning of the container */
+
 .pl-justify--start {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start; }
 
+/* 	Items are positioned at the end of the container */
 .pl-justify--end {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
+/* Items are positioned at the center of the container */
 .pl-justify--center {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
 
+/* 	Items are positioned with space between the lines */
 .pl-justify--between {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
+/* 	Items are positioned with space before, between, and after the lines */
 .pl-justify--around {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
+/* 	Items are positioned with equal space, all around */
 .pl-justify--even {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
