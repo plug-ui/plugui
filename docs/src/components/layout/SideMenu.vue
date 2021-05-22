@@ -36,6 +36,9 @@
       <nuxt-link to="/responsive-area" class="nav-item">
         <div class="nav-label">Responsive Area</div>
       </nuxt-link>
+        <nuxt-link to="/dropdown" class="nav-item">
+        <div class="nav-label">CSS Dropdown</div>
+      </nuxt-link>
     </div>
   </div>
 </template>
