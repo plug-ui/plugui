@@ -11,7 +11,15 @@
     <button class="pl-btn pl-btn--9">Button</button>
     <button class="pl-btn pl-btn--10">Button</button>
     <button class="pl-btn pl-btn--11">Button</button>
+    <button class="pl-btn pl-btn--12">Button</button>
+    <button class="pl-btn pl-btn--13">
+      <span class="pl-btn--13-bg"></span>
+      <span>Button</span>
+    </button>
     <button class="pl-btn--rounded-1">
+      <i class="light-icon-info-circle"></i>
+    </button>
+    <button class="pl-btn--rounded-2">
       <i class="light-icon-info-circle"></i>
     </button>
   </div>
@@ -132,6 +140,42 @@ export default {};
   }
 }
 
+.pl-btn--12 {
+  border: 2px solid #607c8a00;
+  transition: 0.3s border;
+  &:hover {
+    border: 2px solid #607c8a;
+  }
+}
+
+.pl-btn--13 {
+  border: 2px solid #607c8a00;
+  padding: 0;
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: 100%;
+  transition: all 0.3s;
+  span {
+    width: 100%;
+    transition: all 0.3s;
+    padding: 0.8rem 1.6rem;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  .pl-btn--13-bg {
+    max-width: 4px;
+    padding: 0 !important;
+    height: 100%;
+    background-color: #607c8a;
+  }
+  &:hover {
+    color: #fff;
+    .pl-btn--13-bg {
+      max-width: 100%;
+    }
+  }
+}
+
 // Rounded Btn
 .pl-btn--rounded-1 {
   display: flex;
@@ -142,6 +186,25 @@ export default {};
   appearance: none;
   border: 2px solid #607c8a;
   background-color: #607c8a;
+  cursor: pointer;
+  margin: 20px;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  i {
+    font-size: 26px;
+    margin: 7px;
+  }
+}
+
+.pl-btn--rounded-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 50%;
+  color: #607c8a;
+  appearance: none;
+  border: 2px solid #607c8a;
   cursor: pointer;
   margin: 20px;
   text-decoration: none;

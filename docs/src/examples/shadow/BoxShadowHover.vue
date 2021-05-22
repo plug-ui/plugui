@@ -15,4 +15,8 @@
 <script>
 export default {};
 </script>
-<style scoped></style>
+<style scoped>
+.box-sq {
+  transition: box-shadow 0.3s;
+}
+</style>
